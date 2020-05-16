@@ -82,7 +82,7 @@ function ClickEraser(e) {
 function ToggleGrid(e) {
     if (e.target.id == 'on') {
         div.forEach((child) => {
-            child.style.border = '1px solid black'; //Shows grid
+            child.style.border = '0.1px solid #e4e4e4'; //Shows grid
         });
     }
     if (e.target.id == 'off') {
