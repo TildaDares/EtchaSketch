@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Pacifico&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background: black;
+    font-family: 'Amiri', serif;
+}
+
+#heading {
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+
+.outer-container {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    padding-bottom: 30px;
+}
+
+.grid-container {
+    background: white;
+    width: 90%;
+    height: 60%;
+    margin: auto;
+    display: grid;
+}
+
+form {
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-top: 30px;
+}
+
+.input-value {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    background: black;
+    color: white;
+    margin-right: 5px;
+}
+
+form button {
+    background: white;
+    border: 1px hidden black;
+    cursor: pointer;
+}
+
+#reset,
+#draw,
+#eraser {
+    width: 60px;
+    margin-right: 5px;
+}
+
+#random {
+    width: 120px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+fieldset {
+    color: white;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+legend {
+    margin-bottom: 10px;
+}
+
+@media(min-width: 500px) {
+    .grid-container {
+        width: 400px;
+        height: 400px;
+    }
+    .outer-container {
+        height: 600px;
+    }
+}
+
+@media(min-width: 700px) {
+    .grid-container {
+        width: 500px;
+        height: 500px;
+    }
+    .outer-container {
+        height: 600px;
+    }
+}
+
+@media(min-width: 800px) {
+    .grid-container {
+        width: 600px;
+        height: 600px;
+    }
+    .outer-container {
+        height: 690px;
+    }
+    #reset,
+    #eraser {
+        width: 70px;
+        font-size: 1.2rem;
+    }
+    #random {
+        width: 140px;
+        font-size: 1.2rem;
+    }
+}

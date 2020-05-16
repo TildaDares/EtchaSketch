@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+<header>
+<h1 id="heading">Etch-a-Sketch</h1>
+</header>
+<div class="outer-container">
+<div class="grid-container">
+
+</div>
+<form class="buttons">
+<input type="number" class="input-value" placeholder="Enter number of grids" min="2" max="100" value="16">
+<button type="button" id="reset">Reset</button>
+<button type="button" id="eraser">Eraser</button>
+<button type="button" id="random">Random colors</button>
+<input type="color">
+<fieldset>
+<legend>Toggle Grid:</legend>
+<input type="radio" id="on" name="toggle">
+<label for="on">ON</label><br>
+<input type="radio" id="off" name="toggle" checked="checked">
+<label for="off">OFF</label>
+</fieldset>
+</form>
+</div>
+   <script src="script.js"></script> 
+</body>
+</html>
