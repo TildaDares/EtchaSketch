@@ -72,11 +72,8 @@ function ShowRandomColors(e, darkness) {
 
 function ClickEraser(e) {
     let userInput = gridValue.value * gridValue.value;
-    for (let i = 0; i < userInput; i++) {
-        randomColorIsClicked = false;
-        bgColor = 'white';
-        div[i].addEventListener('mouseover', colorDiv); //Erases whatever bgColor there is when there's a mouseover on the element
-    }
+    randomColorIsClicked = false;
+    bgColor = 'white';
 }
 
 function ToggleGrid(e) {

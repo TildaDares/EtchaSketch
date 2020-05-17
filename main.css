@@ -37,6 +37,7 @@ body {
     height: 60%;
     margin: auto;
     display: grid;
+    border: 1px solid red;
 }
 
 form {
