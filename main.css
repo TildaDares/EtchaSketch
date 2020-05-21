@@ -9,7 +9,9 @@ html,
 body {
     width: 100%;
     height: 100%;
-    background: black;
+    background: url('290061-P6O4SC-288.jpg');
+    background-size: cover;
+    background-position: right;
     font-family: 'Amiri', serif;
 }
 
